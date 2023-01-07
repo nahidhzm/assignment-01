@@ -1,0 +1,227 @@
+*{
+  margin: 0;  
+}
+/* header styles */
+/* banner */
+.header{
+   background-image: url(../images/banner3.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 750px;
+}
+.section01{
+    color: white;
+    padding: 170px 130px 200px 885px;
+    box-sizing: content-box;
+    height: 300px;
+    width: 400px;
+    font-style: unset;
+    
+}
+.description01{
+    margin: 30px 0px 30px 0px;
+}
+.head{
+    font-size: 56px;
+}
+.btn-primary{
+    color: #0360AC;
+    padding: 13px;
+    background-color: #FFFFFF;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+
+}
+/* year content style */
+.content{
+    padding: 120px 120px 0 140px;
+    margin: ;
+    align-items: center;
+    display: flex;
+}
+.content-text{
+    padding-top: 140px;
+}
+.content-title{
+    padding-right: 190px;
+    font-size: 30px;
+    font-family: arial black;
+    color: #151414;
+}
+.content-para{
+    padding-right: 160px;
+    color: #6D6C6C;
+    margin: 30px 0px 20px;
+}
+.failures-reason{
+    list-style: none;
+}
+.failures-reason i{
+    color: #61E4AE;
+    margin-right: 5px;
+}
+ul li{
+    color: #6D6C6C;
+    margin-bottom: 6px;
+
+}
+.content-title, .content-para{
+    padding-left: 39px;
+
+}
+/* next year goal style */
+
+.my-plans h1{
+    font-family: arial;
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    margin-top: 140px;
+    margin-bottom: 50px;
+}
+.year-plans{
+    justify-content: center;
+    display: flex;
+    gap: 70px;
+}
+.plan-title{
+    font-family: arial;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.plan-para{
+    color: #737272;
+    font-size: 20px;
+    padding-left: 10px;
+}
+.plan{
+    box-sizing: border-box;
+    text-align: center;
+    
+}
+/* next year goal */
+.goal{
+    text-align: center;
+    margin: 100px 0px;
+
+
+}
+.goal h1{
+    font-size: 55px;
+    font-family: arial black;
+}
+.green{
+    color: rgb(36, 116, 36);
+}
+.red{
+    color: rgb(243, 45, 45);
+}
+.yellow{
+    color: rgba(211, 211, 40, 0.808);
+}
+.lightblue{
+    color: rgba(37, 176, 223, 0.897);
+}
+.orange{
+    color: rgba(211, 74, 24, 0.904);
+}
+tbody{
+    color: rgb(53, 22, 11);
+}
+
+table, th, td {
+    border: 5px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 40px;
+}
+tr th{
+    padding: 30px 70px;
+    color: royalblue;
+    font-size: 40px;
+    font-family: arial black;
+}
+h1{
+    margin: 100px 0px;
+}
+tr td{
+    padding: 30px 70px;
+    font-size: 30px;
+    font-family: arial;
+}
+.table{
+    display: flex;
+    justify-content: center;
+}
+/* contact with us style */
+.call-now{
+    margin: 150px 260px 120px;
+}
+.contact-content{
+    background: linear-gradient(to left,  rgba(255,0,0,0), rgb(37, 112, 182)), url(../images/watch.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+}
+.contact-content h2{
+    color: #FFFFFF;
+    font-size: 35px;
+    font-family: arial black;
+    font-weight: 800;
+    padding: 0px 350px 30px 0px;
+    
+}
+.contact-content{
+    padding: 40px;
+}
+/* footer style */
+.footer{
+    display: flex;
+    padding: 150px 150px 150px 150px;
+    color: #9C9C9C;
+    background-color: #151414;
+}
+.footer h2{
+    color: #F8F8F8;
+}
+.future{
+    font-size: 37px;
+    font-family: arial;
+    margin-bottom: 12px;
+}
+.footer-para{
+    margin: 16px 0px 16px 0px;
+}
+.number{
+    margin: 16px 0px;
+}
+.social-contact{
+    display: flex;
+    gap: 15px;
+    
+}
+.subscribe{
+    margin-left: 500px;
+}
+.subscribe input{
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #151414;
+    margin: 20px 0px 14px;
+    box-sizing: border-box;
+    border: 2px solid #737272;
+    font-size: 18px;
+}
+.sub-btn{
+    padding: 16px 30px;
+    color: #FFFFFF;
+    background-color: #005FAC;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
